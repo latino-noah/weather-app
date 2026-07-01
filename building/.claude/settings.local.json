@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vite *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(curl -s http://localhost:52886/)",
+      "Bash(echo \"=== EXIT $? ===\")",
+      "Bash(curl -s http://localhost:5173/)",
+      "Bash(curl -s \"http://localhost:5173/src/precip3d.js\")",
+      "Bash(curl -s \"http://localhost:5173/src/main.jsx\")",
+      "Bash(curl -s \"http://localhost:53534/\")",
+      "Bash(curl -s \"http://localhost:53534/src/precip3d.js\")",
+      "Bash(lsof -nP -iTCP -sTCP:LISTEN)",
+      "Bash(awk '{print $9}')",
+      "Bash(curl -s \"http://localhost:5174/\")",
+      "Bash(curl -s \"http://localhost:5174/src/precip3d.js\")"
+    ]
+  }
+}
